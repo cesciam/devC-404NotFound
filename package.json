@@ -5,11 +5,14 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "lite-server"
+    "dev": "live-server ./src"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "nodemon": "^2.0.7"
+  },
+  "devDependencies": {
+    "lite-server": "^2.6.1"
   }
 }
