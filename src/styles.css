@@ -8,6 +8,7 @@
   font-family: 'Inconsolata', monospace; 
   margin-left: 77px;
   margin-top: 40px;
+  color: #333333;
 }
 
 .content {
@@ -44,17 +45,36 @@
   font-size: 24px;
   width: 21.21vw;
   margin: 50px 0px; 
+  color: #4F4F4F;
 }
  .content__information--button button {
-   padding: 24px 43px;
+   padding: 24px 48px;
    background-color: #333333;
    color: #FFFFFF;
    font-family: 'Space Mono', monospace;
-
+   border: none;
  }
 
  .content__information--button button:hover {
    cursor: pointer;
+ }
+
+ .footer {
+   display: grid;
+   grid-template-columns: auto;
+   justify-content: center;
+   margin-top: 151px;
+ }
+
+ .footer p {
+   font-family: 'Montserrat', sans-serif;
+   color: #BDBDBD;
+ }
+
+ .footer__username {
+   color: inherit;
+   text-decoration: underline;
+   font-weight: bold;
  }
 
  @media (max-width:1024px){
@@ -76,5 +96,15 @@
     }
     .content__information h1 {
       font-size: 11vw;
+    }
+    .content__information p {
+      width: 83vw;
+      margin: 50px 0px 100px 0px;
+    }     
+    .header p {
+    margin-left: 24px;
+    margin-top: 20px;
+    color: #333333;
+    font-weight: bold;
     }
  }
